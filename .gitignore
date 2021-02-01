@@ -29,3 +29,6 @@ index.css
 
 # environment config
 public/config/
+.vs/slnx.sqlite
+FTB/.vs/FTB/v15/.suo
+FTB/FTB.sln
