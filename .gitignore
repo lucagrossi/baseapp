@@ -29,3 +29,8 @@ index.css
 
 # environment config
 public/config/
+*.sln
+.vs/ProjectSettings.json
+.vs/slnx.sqlite
+.vs/VSWorkspaceState.json
+FTB/.vs/FTB/v15/.suo
