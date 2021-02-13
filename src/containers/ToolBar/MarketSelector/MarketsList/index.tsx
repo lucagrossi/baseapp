@@ -85,7 +85,7 @@ class MarketsListComponent extends React.Component<Props, State> {
 
     private currencyPairSelectHandler = (key: string) => {
         const { markets } = this.props;
-        const marketToSet = markets.find(el => el.name === key);
+        const marketToSet = markets.find(el => this.removeScondCryptoShortname(el.name) === key);
 
         this.props.setCurrentPrice(0);
         if (marketToSet) {

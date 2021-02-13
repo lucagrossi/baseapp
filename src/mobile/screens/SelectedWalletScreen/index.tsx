@@ -24,7 +24,7 @@ const SelectedWalletMobileScreen = ()  =>  {
                 backTitle={intl.formatMessage({ id: 'page.mobile.wallets.title' })}
                 onGoBack={() => history.push('/wallets')}
             />
-            <WalletHeader currency={wallet.currency} name={wallet.name}/>
+            <WalletHeader wallet={wallet} currency={wallet.currency} name={wallet.name}/>
             <WalletBanner wallet={wallet}/>
             <WalletsHistory />
             <WalletsButtons currency={wallet.currency} />

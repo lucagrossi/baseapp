@@ -94,8 +94,8 @@ class MarketsContainer extends React.Component<Props> {
 
         return markets.map((market: Market) =>
             ([
-                //market.name,
-				this.removeScondCryptoShortname(market.name),
+            //    market.name,
+			this.removeScondCryptoShortname(market.name),
                 Decimal.format(Number((marketTickers[market.id] || defaultTicker).last), market.amount_precision, ','),
                 (marketTickers[market.id] || defaultTicker).price_change_percent,
             ]),
@@ -104,7 +104,7 @@ class MarketsContainer extends React.Component<Props> {
 
     private handleOnSelect = (index: string) => {
         const { markets, currentMarket } = this.props;
-        const marketToSet = markets.find(el => el.name === index);
+        const marketToSet = markets.find(el => this.removeScondCryptoShortname(el.name) === index);
         this.props.setCurrentPrice(0);
 
         if (marketToSet && (!currentMarket || currentMarket.id !== marketToSet.id)) {
@@ -114,10 +114,10 @@ class MarketsContainer extends React.Component<Props> {
             }
         }
     };
-    private removeScondCryptoShortname(name) {
-		let cyptoPairArr = name.split('/');
-		return cyptoPairArr[0];
-	}
+     private removeScondCryptoShortname(name) {
+	 	let cyptoPairArr = name.split('/');
+	 	return cyptoPairArr[0];
+	 }
 }
 
 const mapStateToProps = (state: RootState): ReduxProps => ({
