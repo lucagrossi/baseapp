@@ -236,7 +236,7 @@ class AddressComponent extends React.Component<Props, State> {
                 return value.match(cityRegex) ? true : false;
             case 'postcode':
                // const postcodeRegex = new RegExp(`^[0-9]{1,12}$`);
-                const postcodeRegex = new RegExp(`^[a-zA-Z0-9, .;/\\s]+$`);
+                const postcodeRegex = new RegExp(`^[a-zA-Z 0-9]+$`);
 
                 return value.match(postcodeRegex) ? true : false;
             default:
