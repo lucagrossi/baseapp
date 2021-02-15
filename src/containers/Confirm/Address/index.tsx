@@ -255,7 +255,7 @@ class AddressComponent extends React.Component<Props, State> {
             city,
             country,
             fileScan,
-            postcode,
+        //    postcode,
         } = this.state;
 
         const addressValid = this.handleValidateInput('address', address);
