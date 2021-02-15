@@ -134,7 +134,7 @@ class AddressComponent extends React.Component<Props, State> {
                                 defaultLabel={''}
                                 placeholder={this.translate('page.body.kyc.address.postcode.placeholder')}
                                 inputValue={postcode}
-                               // handleChangeInput={e => this.handleChange(e, 'postcode')}
+                                handleChangeInput={e => this.handleChange(e, 'postcode')}
                                 handleFocusInput={this.handleFieldFocus('postcode')}
                             />
                         </fieldset>
@@ -234,10 +234,11 @@ class AddressComponent extends React.Component<Props, State> {
                 const cityRegex = new RegExp(`^[a-zA-Z]+$`);
 
                 return value.match(cityRegex) ? true : false;
-            /*case 'postcode':
-                const postcodeRegex = new RegExp(`^[0-9]{1,12}$`);
+            case 'postcode':
+               // const postcodeRegex = new RegExp(`^[0-9]{1,12}$`);
+                const postcodeRegex = new RegExp(`^[a-zA-Z0-9,.;/\\s]+$`);
 
-                return value.match(postcodeRegex) ? true : false;*/
+                return value.match(postcodeRegex) ? true : false;
             default:
                 return true;
         }
@@ -255,18 +256,18 @@ class AddressComponent extends React.Component<Props, State> {
             city,
             country,
             fileScan,
-        //    postcode,
+            postcode,
         } = this.state;
 
         const addressValid = this.handleValidateInput('address', address);
         const cityValid = this.handleValidateInput('city', city);
-       // const postcodeValid = this.handleValidateInput('postcode', postcode);
+        const postcodeValid = this.handleValidateInput('postcode', postcode);
 
         return (
             !addressValid ||
             !cityValid ||
             !country.length ||
-           // !postcodeValid ||
+            !postcodeValid ||
             !fileScan.length
         );
     };
