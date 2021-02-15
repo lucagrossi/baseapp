@@ -380,8 +380,9 @@ class IdentityComponent extends React.Component<Props, IdentityState> {
 
                 return value.match(cityRegex) ? true : false;
             case 'postcode':
-                const postcodeRegex = new RegExp(`^[0-9]{1,12}$`);
-
+              //  const postcodeRegex = new RegExp(`^[0-9]{1,12}$`);
+                const postcodeRegex = new RegExp(`/^[1-9][0-9]{3} ?(?!sa|sd|ss)[a-z]{2}$/i`);
+                
                 return value.match(postcodeRegex) ? true : false;
             case 'dateOfBirth':
                 if (value.length === 10) {
