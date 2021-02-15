@@ -134,7 +134,7 @@ class AddressComponent extends React.Component<Props, State> {
                                 defaultLabel={''}
                                 placeholder={this.translate('page.body.kyc.address.postcode.placeholder')}
                                 inputValue={postcode}
-                                handleChangeInput={e => this.handleChange(e, 'postcode')}
+                               // handleChangeInput={e => this.handleChange(e, 'postcode')}
                                 handleFocusInput={this.handleFieldFocus('postcode')}
                             />
                         </fieldset>
