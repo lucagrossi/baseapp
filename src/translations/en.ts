@@ -3,7 +3,7 @@ import { nationalitiesNames } from './nationalities';
 export const en = {
     'page.header.navbar.signIn': 'Sign In',
     'page.header.navbar.trade': 'Trade',
-    'page.header.navbar.wallets': 'Wallets',
+    'page.header.navbar.wallets': 'Players',
     'page.header.navbar.openOrders': 'Orders',
     'page.header.navbar.history': 'History',
     'page.header.navbar.api': 'API Documentation',
@@ -133,7 +133,7 @@ export const en = {
     'page.body.landing.startTrading.button2': 'Start trading',
 
     'page.body.landing.footer.exchange': 'Exchange',
-    'page.body.landing.footer.wallets': 'Wallets',
+    'page.body.landing.footer.wallets': 'Players',
     'page.body.landing.footer.fees': 'Fees',
     'page.body.landing.footer.faq': 'FAQ',
     'page.body.landing.footer.support': 'Support',
