@@ -141,7 +141,7 @@ export const en = {
     'page.body.landing.footer.about': 'About us',
     'page.body.landing.footer.community': 'Community',
     'page.body.landing.footer.info': 'Info',
-    'page.body.landing.footer.rights': ,
+    'page.body.landing.footer.rights': '',
 
     'pagy.body.footer.powered_by': 'Powered by',
 
