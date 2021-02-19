@@ -34,8 +34,8 @@ export const en = {
     'page.body.trade.header.newOrder.content.orderType.market': 'Market',
     'page.body.trade.header.newOrder.content.price': 'Prijs',
     'page.body.trade.header.newOrder.content.amount': 'Aantal',
-    'page.body.trade.header.newOrder.content.total': 'Totaal',
-    'page.body.trade.header.newOrder.content.available': 'Beschikbaar',
+    'page.body.trade.header.newOrder.content.total': 'Totaal:',
+    'page.body.trade.header.newOrder.content.available': 'Beschikbaar:',
     'page.body.trade.header.newOrder.content.filterPrice': 'Geldige prijs interval is {priceStep}',
 
     'error.order.create.minAmount': 'Aantal is te laag. Minimale aantal is {amount} {currency}',
@@ -155,7 +155,7 @@ export const en = {
     'page.body.wallets.tabs.deposit.disabled.message': 'Deposit was disabled by administration',
     'page.body.wallets.tabs.deposit.ccy.message.submit': 'Submit a deposit using the following address or QR code. Your deposit will be reflected in your account after {confirmations} confirmations',
     'page.body.wallets.tabs.deposit.ccy.message.address': 'Deposit Address',
-    'page.body.wallets.tabs.deposit.ccy.message.button': 'COPY',
+    'page.body.wallets.tabs.deposit.ccy.message.button': 'Kopieer',
     'page.body.wallets.tabs.deposit.ccy.message.success': 'Address copied',
     'page.body.wallets.tabs.deposit.ccy.message.pending': 'Generating deposit address',
     'page.body.wallets.tabs.deposit.ccy.button.generate': 'Generate',
@@ -309,7 +309,7 @@ export const en = {
     'page.body.profile.header.account': 'Profiel',
 
     'page.body.profile.header.account.content.password': 'Wachtwoord',
-    'page.body.profile.header.account.content.password.button.change': 'Change',
+    'page.body.profile.header.account.content.password.button.change': 'Wijzig',
     'page.body.profile.header.account.content.password.old': 'Oud wachtwoord',
     'page.body.profile.header.account.content.password.new': 'Nieuw wachtwoord',
     'page.body.profile.header.account.content.password.button.save': 'Save',
@@ -346,7 +346,7 @@ export const en = {
     'page.body.profile.header.account.profile.identity.message': 'Opnemen mogelijk',
 
     'page.body.profile.header.referralProgram': 'Referral Link',
-    'page.body.profile.content.copyLink': 'Copy',
+    'page.body.profile.content.copyLink': 'Kopieer',
 
     'page.body.profile.apiKeys.header': 'My API Keys',
     'page.body.profile.apiKeys.header.create': 'Create new',
@@ -357,7 +357,7 @@ export const en = {
 
     'page.body.profile.apiKeys.modal.btn.show': 'Show',
     'page.body.profile.apiKeys.modal.btn.create': 'Confirm',
-    'page.body.profile.apiKeys.modal.btn.copy': 'Copy',
+    'page.body.profile.apiKeys.modal.btn.copy': 'Kopieer',
     'page.body.profile.apiKeys.modal.btn.activate': 'Activate',
     'page.body.profile.apiKeys.modal.btn.disabled': 'Disable',
     'page.body.profile.apiKeys.modal.btn.delete': 'Delete',
@@ -411,7 +411,7 @@ export const en = {
     'page.body.profile.verification.email.title': 'Email adres',
     'page.body.profile.verification.email.subtitle': 'Opnemen mogelijk maken',
     'page.body.profile.verification.email.rejected.tooltip': 'Je emailadres is afgewezen',
-    'page.body.profile.verification.phone.title': 'Verifieer Telefoonnummer',
+    'page.body.profile.verification.phone.title': 'Verifieer telefoonnummer',
     'page.body.profile.verification.phone.subtitle': 'Om storten en opnemen mogelijk te maken',
     'page.body.profile.verification.phone.rejected.tooltip': 'Uw telefoonnummer is afgewezen',
     'page.body.profile.verification.profile.title': 'Maak uw profiel compleet',
