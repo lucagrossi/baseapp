@@ -38,7 +38,7 @@ export const en = {
     'page.mobile.currentMarketInfo.high': 'Hoog',
     'page.mobile.currentMarketInfo.low': 'Laag',
 
-    'page.header.signIn.forgotPassword': 'Password vergeten?',
+    'page.header.signIn.forgotPassword': 'Wachtwoord vergeten?',
     'page.header.signIN.noAccountYet': 'Nog geen account?',
     'page.header.signUp.terms': 'Ik ga akkoord met alle voorwaarden',
     'page.header.signUp.alreadyRegistered': 'Reeds geregistreerd?',
