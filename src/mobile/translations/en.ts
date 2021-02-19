@@ -3,7 +3,7 @@ export const en = {
     'page.mobile.footer.home': 'Home',
     'page.mobile.footer.orders': 'Orders',
     'page.mobile.footer.trading': 'Trade',
-    'page.mobile.footer.wallets': 'Wallets',
+    'page.mobile.footer.wallets': 'Players',
     'page.mobile.footer.profile': 'Profile',
 
     'page.mobile.tradingTabs.label.createOrder': 'Create Order',
@@ -83,7 +83,7 @@ export const en = {
     'page.mobile.profileColorTheme.theme.dark': 'Dark',
     'page.mobile.profileColorTheme.theme.light': 'Light',
 
-    'page.mobile.wallets.title': 'Wallets',
+    'page.mobile.wallets.title': 'Players',
 
     'page.mobile.profile.accountActivity.title': 'Account activity',
     'page.mobile.profile.apiKeys.title': 'My API keys',
